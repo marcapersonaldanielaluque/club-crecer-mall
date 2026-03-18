@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 49.62 66.67">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: #091033;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="47.16" height="66.67"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x="31.16" y="45.33" width="18.46" height="16"/>
+    </clipPath>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g class="cls-3">
+        <path class="cls-4" d="M14.53.16S.09.35.28,13.32c.19,12.96,2.81,24.43,7.13,30.82s15.37,23.11,27.93,21.43c0,0,6.19-1.32,10.88-4.33l-15.19-11.84s-4.49,2.82-7.31-.94c-2.81-3.76-11.63-21.24-11.63-21.24,0,0-2.44-5.64,3-8.08L14.53.16Z"/>
+      </g>
+      <path class="cls-4" d="M16.21.16s1.13-.38,3.19.75c2.06,1.13,2.06,2.07,2.06,2.07l.19,12.97s-.56.76-1.31,1.51-3.19,1.88-3.56,1.13c-.38-.75-.56-18.42-.56-18.42Z"/>
+      <g class="cls-2">
+        <path class="cls-4" d="M32.29,48.02l4.17-2.19s.94-.19,2.44.76c1.5.94,9.38,7.14,9.38,7.14,0,0,1.31,1.13.94,2.44-.38,1.32-1.31,4.14-1.31,4.14l-15.61-12.29Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
