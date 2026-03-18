@@ -49,7 +49,7 @@ const PricingSection = () => {
             ¿Listo para transformar tu negocio?
           </h2>
           <p className="text-brand-cream/60 max-w-xl mx-auto">
-            Elige el plan de consultoría que mejor se adapte a tus necesidades
+            Elige el plan de consultoría que mejor se adapte a tus necesidades.
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-8 justify-center items-stretch max-w-3xl mx-auto">
