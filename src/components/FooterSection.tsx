@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-consultant.jpg";
+import footerImage from "@/assets/footer-daniela.png";
 import { Linkedin, Instagram, Youtube, Facebook, Globe } from "lucide-react";
 
 const socialLinks = [
@@ -34,7 +34,7 @@ const FooterSection = () => {
           {/* Left: Profile */}
           <div className="flex flex-col items-center text-center md:w-1/4 flex-shrink-0">
             <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-brand-green/40 shadow-lg mb-3">
-              <img src={heroImage} alt="Daniela Luque Díaz" className="w-full h-full object-cover" />
+              <img src={footerImage} alt="Daniela Luque Díaz" className="w-full h-full object-cover" />
             </div>
             <h3 className="text-brand-cream font-bold text-lg font-mono">Daniela Luque Díaz</h3>
             <p className="text-brand-cream/60 text-sm italic mt-1">
