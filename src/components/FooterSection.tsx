@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-consultant.jpg";
+import footerImage from "@/assets/footer-daniela.png";
 import { Linkedin, Instagram, Youtube, Facebook, Globe } from "lucide-react";
 
 const socialLinks = [
