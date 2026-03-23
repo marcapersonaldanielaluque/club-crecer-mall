@@ -29,8 +29,8 @@ const AboutSection = () => {
           <p>Soy Licenciada en Administración de Empresas, tengo dos maestrías enfocadas en el mundo de los negocios digitales (España y Argentina), y varios diplomados en gestión empresarial. Estudiar y estar actualizada es clave en este rubro.
 
 
-A lo largo de mi carrera profesional, trabaje durante 8 años en agencia liderando la planificación, gestión y optimización de campañas en plataformas como Google Ads, Meta, LinkedIn, TikTok, X y plataformas de publicidad programática, administrando presupuestos superiores a USD 100.000.
-Además, soy docente universitaria de pregrado y postgrado en la carrera Marketing y Comunicación en la Universidad Privada Boliviana.
+A lo largo de mi carrera profesional, trabaje durante 8 años en agencia liderando la planificación, gestión y optimización de campañas en plataformas como Google Ads, Meta, LinkedIn, TikTok, X y plataformas de publicidad programática, administrando presupuestos superiores a USD 100.000. Además, soy docente universitaria de pregrado y postgrado en la carrera Marketing y Comunicación en la Universidad Privada Boliviana.
+
           </p>
           <p>Dentro de El Club CRECER, mi objetivo es ayudar a los emprendedores a desarrollar y optimizar su estrategia de Marketing Digital como parte de su proceso de transformación digital, con un enfoque en resultados y sostenibilidad.
 
