@@ -66,7 +66,7 @@ const AreasSection = () => {
                 <img src={area.icon} alt={area.title} className="w-6 h-6" />
               </div>
               <h3 className="font-semibold text-foreground text-base mb-2 font-mono">{area.title}</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">{area.desc}</p>
+              <p className="text-sm leading-relaxed font-sans text-primary-foreground">{area.desc}</p>
             </div>
           ))}
         </div>
