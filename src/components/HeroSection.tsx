@@ -40,8 +40,7 @@ const HeroSection = () => {
               </h1>
 
               <p className="text-brand-cream/70 text-base md:text-lg mb-8 max-w-lg leading-relaxed opacity-0 animate-fade-up" style={{ animationDelay: "0.7s" }}>
-                Consultoría estratégica personalizada para llevar tu empresa al siguiente nivel. 
-                Más de 15 años de experiencia ayudando a organizaciones a alcanzar sus objetivos.
+                Consultoría estratégica personalizada de Marketing Digital que potencia tu marca personal en un activo digital de alto valor.
               </p>
 
               {/* CTA */}
