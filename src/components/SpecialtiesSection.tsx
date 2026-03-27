@@ -7,10 +7,10 @@ import specialty3 from "@/assets/specialty-3.jpg";
 import specialty4 from "@/assets/specialty-4.jpg";
 
 const specialties = [
-  { img: specialty1, title: "Legal y Cumplimiento", name: "Diana Fernández", rating: 5 },
-  { img: specialty2, title: "Comercio Internacional", name: "Carlos Torres", rating: 5 },
-  { img: specialty3, title: "Experiencia del Cliente", name: "Mariel Rodríguez", rating: 5 },
-  { img: specialty4, title: "Marketing Digital", name: "Pedro Gutiérrez", rating: 5 },
+  { img: specialty1, title: "Tu Perfil de LinkedIn", name: "Silvina", rating: 5 },
+  { img: specialty2, title: "Tu Comunidad", name: "Andie", rating: 5 },
+  { img: specialty3, title: "Tu Contenido", name: "Laura", rating: 5 },
+  { img: specialty4, title: "Tu Estrategia de Negocio", name: "Andreina", rating: 5 },
   { img: specialty1, title: "Ventas Efectivas", name: "Augusto", rating: 5 },
   { img: specialty2, title: "Sales Navigator", name: "Andie", rating: 5 },
 ];
