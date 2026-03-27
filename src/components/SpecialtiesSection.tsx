@@ -13,6 +13,8 @@ const specialties = [
   { img: specialty4, title: "Tu Estrategia de Negocio", name: "Andreina", rating: 5 },
   { img: specialty1, title: "Ventas Efectivas", name: "Augusto", rating: 5 },
   { img: specialty2, title: "Sales Navigator", name: "Andie", rating: 5 },
+  { img: specialty3, title: "Tu Mentalidad Millonaria", name: "Sandra", rating: 5 },
+  { img: specialty4, title: "Creatividad Expansiva", name: "Valentina", rating: 5 },
 ];
 
 const CARD_WIDTH = 240;
