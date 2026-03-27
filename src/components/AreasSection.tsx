@@ -69,7 +69,7 @@ const AreasSection = () => {
       <div className="absolute inset-0 bg-background/80" />
       <div ref={ref} className="container mx-auto px-4 relative z-10">
         <div className={`text-center mb-14 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">Áreas de Consultoría</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">Consultorías</h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
             Las estrategias que se pueden abordar dentro de esta consultoría
           </p>

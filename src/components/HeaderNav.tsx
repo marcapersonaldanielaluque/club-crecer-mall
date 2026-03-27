@@ -2,7 +2,7 @@ import brandLogo from "@/assets/brand-logo.png";
 
 const navLinks = [
   { label: "Sobre mí", href: "#sobre-mi" },
-  { label: "Áreas de Consultoría", href: "#areas" },
+  { label: "Consultorías", href: "#areas" },
   { label: "Beneficios", href: "#beneficios" },
   { label: "Planes", href: "#contacto" },
 ];
