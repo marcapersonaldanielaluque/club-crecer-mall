@@ -10,14 +10,36 @@ import iconAvion from "@/assets/icons/avion.svg";
 import rayasColores from "@/assets/rayas-colores.png";
 
 const areas = [
-  { icon: iconEscaleras, title: "Estrategia de Crecimiento", desc: "Diseño de planes estratégicos para escalar tu negocio de manera sostenible." },
-  { icon: iconComunidad, title: "Gestión del Talento", desc: "Optimización de equipos y desarrollo de cultura organizacional de alto rendimiento." },
-  { icon: iconDialogo, title: "Marketing y Ventas", desc: "Estrategias de posicionamiento y aumento de conversión de clientes." },
-  { icon: iconValija, title: "Análisis Financiero", desc: "Evaluación de rentabilidad y optimización de recursos financieros." },
-  { icon: iconEbook, title: "Innovación y Transformación", desc: "Implementación de procesos de innovación y transformación digital." },
-  { icon: iconLibro, title: "Optimización de Procesos", desc: "Mejora de eficiencia operativa y reducción de costos." },
-  { icon: iconPregunta, title: "Modelos de Negocio", desc: "Diseño y validación de nuevos modelos de monetización." },
-  { icon: iconAvion, title: "Expansión de Mercado", desc: "Estrategias para entrar en nuevos mercados y segmentos." },
+  { 
+    icon: iconEscaleras, 
+    title: "Análisis Benchmarking", 
+    desc: "Planificación y desarrollo de una plantilla personalizada de análisis de tu competencia directa e indirecta, con herramientas digitales.\n\nDe esta forma, podrás obtener métricas referenciales para determinar tu objetivos de Marketing Digital y evaluar tu performance en comparación a tu sector." 
+  },
+  { 
+    icon: iconComunidad, 
+    title: "Meta Business Suite", 
+    desc: "Acompañamiento estratégico en la configuración del administrador comercial de Meta Business Suite, para que puedas gestionar de forma profesional y escalable todos tus activos digitales.\n\nTe ayudamos a centralizar y organizar plataformas como Facebook, Instagram y WhatsApp Business dentro de un entorno seguro y eficiente." 
+  },
+  { 
+    icon: iconDialogo, 
+    title: "Social Media Ads", 
+    desc: "Gestión estratégica de campañas publicitarias en Meta Ads, TikTok Ads y LinkedIn Ads, diseñada para maximizar la visibilidad de tu marca, impulsar el lanzamiento de tus servicios o potenciar la promoción de tus eventos.\n\nLa consultoría incluye la configuración de la cuenta publicitaria y la planificación estratégica: definición de objetivos, segmentación precisa del público objetivo y desarrollo de anuncios." 
+  },
+  { 
+    icon: iconValija, 
+    title: "Google Ads", 
+    desc: "Desarrollo e implementación de campañas publicitarias en Google Ads, abarcando la Red de Búsqueda, Red de Display y YouTube Ads, orientadas a atraer tráfico cualificado.\n\nPor lo tanto, este servicio es ideal para emprendimientos que cuentan con una landing page o sitio web y buscan incrementar sus visitas, generar oportunidades de negocio y construir una base sólida para futuras conversiones." 
+  },
+  { 
+    icon: iconEbook, 
+    title: "Reporting", 
+    desc: "Servicio de análisis y reporting enfocado en medir, interpretar y optimizar el rendimiento de tus campañas digitales en plataformas como Meta Ads Manager, Google Ads y Google Analytics. Transformamos datos en información estratégica para entender qué está funcionando, qué no y dónde están las oportunidades de mejora.\n\nAdemás, entregamos insights estratégicos y recomendaciones concretas para optimizar las tácticas estratégicas y mejorar el rendimiento general de la estrategia de Marketing Digital." 
+  },
+  { 
+    icon: iconLibro, 
+    title: "Estrategia de Marketing Digital", 
+    desc: "Desarrollo de una estrategia integral de Marketing Digital, orientada a definir el camino más eficiente para alcanzar tus objetivos.\n\nEl servicio incluye el análisis del contexto, la definición de objetivos claros, segmentación del público objetivo, selección del mix de medios y planificación de acciones tácticas.\n\nAdemás, se establecen lineamientos de contenido, inversión publicitaria y métricas clave (KPIs), permitiendo ejecutar un plan estructurado y medible para escalar el crecimiento de tu marca." 
+  },
 ];
 
 const brandColorsBg = [
@@ -47,7 +69,7 @@ const AreasSection = () => {
       <div className="absolute inset-0 bg-background/80" />
       <div ref={ref} className="container mx-auto px-4 relative z-10">
         <div className={`text-center mb-14 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">Áreas de Consultoría</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">Consultorías</h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
             Las estrategias que se pueden abordar dentro de esta consultoría
           </p>
