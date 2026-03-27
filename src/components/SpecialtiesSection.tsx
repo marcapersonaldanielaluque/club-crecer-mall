@@ -84,7 +84,7 @@ const SpecialtiesSection = () => {
             Otras Especialidades de Consultoría
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Explora nuestras diferentes áreas de especialización con consultores expertos
+            Explora nuestras diferentes áreas de especialización con mentores expertos
           </p>
         </div>
         <div
