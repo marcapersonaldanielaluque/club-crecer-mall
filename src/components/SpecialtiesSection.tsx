@@ -11,6 +11,8 @@ const specialties = [
   { img: specialty2, title: "Comercio Internacional", name: "Carlos Torres", rating: 5 },
   { img: specialty3, title: "Experiencia del Cliente", name: "Mariel Rodríguez", rating: 5 },
   { img: specialty4, title: "Marketing Digital", name: "Pedro Gutiérrez", rating: 5 },
+  { img: specialty1, title: "Ventas Efectivas", name: "Augusto", rating: 5 },
+  { img: specialty2, title: "Sales Navigator", name: "Andie", rating: 5 },
 ];
 
 const CARD_WIDTH = 240;
