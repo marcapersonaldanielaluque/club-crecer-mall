@@ -118,11 +118,9 @@ const SpecialtiesSection = () => {
                     <div className="p-4">
                       <h3 className="font-semibold text-foreground text-sm font-mono">{s.title}</h3>
                       <p className="text-xs text-muted-foreground mt-1">{s.name}</p>
-                      <div className="flex gap-0.5 mt-2">
-                        {Array.from({ length: s.rating }).map((_, j) => (
-                          <span key={j} className="text-accent text-xs">★</span>
-                        ))}
-                      </div>
+                      <button className="mt-2 text-xs font-semibold text-primary hover:text-primary/80 transition-colors">
+                        Ver Más →
+                      </button>
                     </div>
                   </div>
                 </div>
