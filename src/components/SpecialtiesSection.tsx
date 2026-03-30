@@ -1,7 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useRef, useState, useCallback } from "react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import specialty1 from "@/assets/specialty-1.jpg";
+import specialty1 from "@/assets/specialty-silvina.jpg";
 import specialty2 from "@/assets/specialty-2.jpg";
 import specialty3 from "@/assets/specialty-3.jpg";
 import specialty4 from "@/assets/specialty-4.jpg";
