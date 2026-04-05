@@ -1,20 +1,21 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useRef, useState, useCallback } from "react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import specialty1 from "@/assets/specialty-silvina.jpg";
+import specialtySilvina from "@/assets/specialty-silvina.png";
 import specialty2 from "@/assets/specialty-2.jpg";
 import specialty3 from "@/assets/specialty-3.jpg";
-import specialty4 from "@/assets/specialty-4.jpg";
+import specialtyAndreina from "@/assets/specialty-andreina.png";
+import specialtySandra from "@/assets/specialty-sandra.png";
+import specialtyValentina from "@/assets/specialty-valentina.png";
 
 const specialties = [
-  { img: specialty1, title: "Tu Perfil de LinkedIn", name: "Silvina", rating: 5 },
-  { img: specialty2, title: "Tu Comunidad", name: "Andie", rating: 5 },
-  { img: specialty3, title: "Tu Contenido", name: "Laura", rating: 5 },
-  { img: specialty4, title: "Tu Estrategia de Negocio", name: "Andreina", rating: 5 },
-  { img: specialty1, title: "Ventas Efectivas", name: "Augusto", rating: 5 },
-  { img: specialty2, title: "Sales Navigator", name: "Andie", rating: 5 },
-  { img: specialty3, title: "Tu Mentalidad Millonaria", name: "Sandra", rating: 5 },
-  { img: specialty4, title: "Creatividad Expansiva", name: "Valentina", rating: 5 },
+  { img: specialtySilvina, title: "Tu Perfil de LinkedIn", name: "Silvina" },
+  { img: specialty3, title: "Tu Contenido", name: "Laura" },
+  { img: specialty2, title: "Tu Comunidad", name: "Andie" },
+  { img: specialtyAndreina, title: "Tu Estrategia de Negocio", name: "Andreina" },
+  { img: specialtySandra, title: "Tu Mentalidad Millonaria", name: "Sandra" },
+  { img: specialtyValentina, title: "Creatividad Expansiva", name: "Valentina" },
+  { img: specialty2, title: "IA para Marca Personal", name: "Leonardo" },
 ];
 
 const CARD_WIDTH = 240;
