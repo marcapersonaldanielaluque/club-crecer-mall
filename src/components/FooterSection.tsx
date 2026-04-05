@@ -50,6 +50,8 @@ const FooterSection = () => {
                 <a
                   key={link.label}
                   href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={link.label}
                   className="text-brand-cream/80 hover:text-primary transition-colors duration-300"
                 >
