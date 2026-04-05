@@ -8,6 +8,7 @@ import specialtyAndreina from "@/assets/specialty-andreina.png";
 import specialtySandra from "@/assets/specialty-sandra.png";
 import specialtyValentina from "@/assets/specialty-valentina.png";
 import specialtyLeonardo from "@/assets/specialty-leonardo.png";
+import specialtyAndie2 from "@/assets/specialty-andie-2.png";
 
 const specialties = [
   { img: specialtySilvina, title: "Tu Perfil de LinkedIn", name: "Silvina" },
@@ -17,6 +18,7 @@ const specialties = [
   { img: specialtySandra, title: "Tu Mentalidad Millonaria", name: "Sandra" },
   { img: specialtyValentina, title: "Creatividad Expansiva", name: "Valentina" },
   { img: specialtyLeonardo, title: "IA para Marca Personal", name: "Leonardo" },
+  { img: specialtyAndie2, title: "Sales Navigator", name: "Andie" },
 ];
 
 const CARD_WIDTH = 240;
