@@ -2,20 +2,21 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useRef, useState, useCallback } from "react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import specialtySilvina from "@/assets/specialty-silvina.png";
-import specialty2 from "@/assets/specialty-2.jpg";
-import specialty3 from "@/assets/specialty-3.jpg";
+import specialtyLaura from "@/assets/specialty-laura.png";
+import specialtyAndie from "@/assets/specialty-andie.png";
 import specialtyAndreina from "@/assets/specialty-andreina.png";
 import specialtySandra from "@/assets/specialty-sandra.png";
 import specialtyValentina from "@/assets/specialty-valentina.png";
+import specialtyLeonardo from "@/assets/specialty-leonardo.png";
 
 const specialties = [
   { img: specialtySilvina, title: "Tu Perfil de LinkedIn", name: "Silvina" },
-  { img: specialty3, title: "Tu Contenido", name: "Laura" },
-  { img: specialty2, title: "Tu Comunidad", name: "Andie" },
+  { img: specialtyLaura, title: "Tu Contenido", name: "Laura" },
+  { img: specialtyAndie, title: "Tu Comunidad", name: "Andie" },
   { img: specialtyAndreina, title: "Tu Estrategia de Negocio", name: "Andreina" },
   { img: specialtySandra, title: "Tu Mentalidad Millonaria", name: "Sandra" },
   { img: specialtyValentina, title: "Creatividad Expansiva", name: "Valentina" },
-  { img: specialty2, title: "IA para Marca Personal", name: "Leonardo" },
+  { img: specialtyLeonardo, title: "IA para Marca Personal", name: "Leonardo" },
 ];
 
 const CARD_WIDTH = 240;
