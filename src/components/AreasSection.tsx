@@ -9,14 +9,22 @@ import iconAvion from "@/assets/icons/avion.svg";
 import rayasColores from "@/assets/rayas-colores.png";
 import type { LucideIcon } from "lucide-react";
 
-const areas = [
+type AreaItem = {
+  icon?: string;
+  lucideIcon?: LucideIcon;
+  googleIcon?: boolean;
+  title: string;
+  desc: string;
+};
+
+const areas: AreaItem[] = [
   { 
-    icon: iconEscaleras, 
+    lucideIcon: Search, 
     title: "Análisis Benchmarking", 
     desc: "Planificación y desarrollo de una plantilla personalizada y automatizada de análisis de tu competencia directa e indirecta, con herramientas digitales.\n\nDe esta forma, podrás obtener métricas referenciales para determinar tu objetivos de Marketing Digital y evaluar tu performance periódicamente en comparación a tu sector." 
   },
   { 
-    icon: iconComunidad, 
+    lucideIcon: Briefcase, 
     title: "Meta Business Suite", 
     desc: "Acompañamiento estratégico en la configuración del administrador comercial de Meta Business Suite, para que puedas gestionar de forma profesional y escalable todos tus activos digitales.\n\nTe ayudamos a centralizar y organizar plataformas como Facebook, Instagram y WhatsApp Business dentro de un entorno seguro y eficiente." 
   },
@@ -26,7 +34,7 @@ const areas = [
     desc: "Gestión estratégica de campañas publicitarias en Meta Ads, TikTok Ads y LinkedIn Ads, diseñada para maximizar la visibilidad de tu marca, impulsar el lanzamiento de tus servicios o potenciar la promoción de tus eventos.\n\nLa consultoría incluye la configuración de la cuenta publicitaria y la planificación estratégica: definición de objetivos, segmentación precisa del público objetivo y desarrollo de anuncios." 
   },
   { 
-    icon: iconValija, 
+    googleIcon: true, 
     title: "Google Ads", 
     desc: "Desarrollo e implementación de campañas publicitarias en Google Ads, abarcando la Red de Búsqueda, Red de Display y YouTube Ads, orientadas a atraer tráfico cualificado.\n\nPor lo tanto, este servicio es ideal para emprendimientos que cuentan con una landing page or sitio web y buscan incrementar sus visitas, generar oportunidades de negocio y construir una base sólida para futuras conversiones." 
   },
