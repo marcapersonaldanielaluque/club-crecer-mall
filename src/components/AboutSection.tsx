@@ -3,7 +3,7 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 const stats = [
 { value: "10+", label: "Años de experiencia" },
 { value: "50+", label: "Marcas" },
-{ value: "95%", label: "Tasa de éxito" }];
+{ value: "100+", label: "Campañas publicitarias" }];
 
 
 const AboutSection = () => {
