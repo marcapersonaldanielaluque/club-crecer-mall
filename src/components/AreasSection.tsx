@@ -1,6 +1,5 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import iconEscaleras from "@/assets/icons/escaleras.svg";
-import iconComunidad from "@/assets/icons/comunidad.svg";
+import { Search, Briefcase } from "lucide-react";
 import iconDialogo from "@/assets/icons/cuadro-dialogo.svg";
 import iconValija from "@/assets/icons/valija.svg";
 import iconEbook from "@/assets/icons/ebook.svg";
@@ -8,6 +7,7 @@ import iconLibro from "@/assets/icons/libro.svg";
 import iconPregunta from "@/assets/icons/signo-pregunta.svg";
 import iconAvion from "@/assets/icons/avion.svg";
 import rayasColores from "@/assets/rayas-colores.png";
+import type { LucideIcon } from "lucide-react";
 
 const areas = [
   { 
