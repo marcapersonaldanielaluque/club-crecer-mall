@@ -6,7 +6,7 @@ const socialLinks = [
   { icon: Instagram, href: "https://www.instagram.com/danielaluquediaz", label: "Instagram" },
   { icon: () => (
     <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-      <path d="M20.21 20.03V24l-8.21-4.73L3.79 24v-3.97l8.21-4.73 8.21 4.73zM3.79 0h16.42v3.28H3.79V0zm0 5.63h16.42v3.28H3.79V5.63z"/>
+      <path d="M22.539 8.242H1.461V5.406h21.078v2.836zM1.461 10.812h21.078V24L12 18.11 1.461 24V10.812zM22.539 0H1.461v2.836h21.078V0z"/>
     </svg>
   ), href: "https://substack.com/@danielaluquediaz", label: "Substack" },
   { icon: Youtube, href: "https://www.youtube.com/@danielaluquediaz", label: "YouTube" },
