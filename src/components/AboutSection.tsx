@@ -21,7 +21,7 @@ const AboutSection = () => {
         </h2>
         <div className={`space-y-4 text-muted-foreground leading-relaxed transition-all duration-700 delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
           <p>
-            Mi nombre es Iris Horny von Bories. Soy estratega en Marketing Digital, especializada en publicidad digital y posicionamiento digital, con más de 10 años de experiencia impulsando el crecimiento y la transformación digital de emprendimientos y negocios.
+            Mi nombre es <a href="https://www.linkedin.com/in/iris-horny-von-borries/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Iris Horny von Bories</a>. Soy estratega en Marketing Digital, especializada en publicidad digital y posicionamiento digital, con más de 10 años de experiencia impulsando el crecimiento y la transformación digital de emprendimientos y negocios.
           </p>
           <p>
             En cuanto a mi formación académica, soy Licenciada en Administración de Empresas, tengo dos maestrías enfocadas en el mundo de los negocios digitales, y varios diplomados en gestión empresarial. Estudiar y estar actualizada es clave en este rubro.
