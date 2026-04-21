@@ -11,14 +11,14 @@ import specialtyLeonardo from "@/assets/specialty-leonardo.png";
 import specialtyAndie2 from "@/assets/specialty-andie-2.png";
 
 const specialties = [
-  { img: specialtySilvina, title: "Tu Perfil de LinkedIn", name: "Silvina" },
-  { img: specialtyLaura, title: "Tu Contenido", name: "Laura" },
-  { img: specialtyAndie, title: "Tu Comunidad", name: "Andie" },
-  { img: specialtyAndreina, title: "Tu Estrategia de Negocio", name: "Andreina" },
-  { img: specialtySandra, title: "Tu Mentalidad Millonaria", name: "Sandra" },
-  { img: specialtyValentina, title: "Creatividad Expansiva", name: "Valentina" },
-  { img: specialtyLeonardo, title: "IA para Marca Personal", name: "Leonardo" },
-  { img: specialtyAndie2, title: "Sales Navigator", name: "Andie" },
+  { img: specialtySilvina, title: "Tu Perfil de LinkedIn", name: "Silvina", href: "https://danielaluque.com/tu-perfil-de-linkedin-silvina-garcia/" },
+  { img: specialtyLaura, title: "Tu Contenido", name: "Laura", href: "https://danielaluque.com/tu-contenido-laura-mera/" },
+  { img: specialtyAndie, title: "Tu Comunidad", name: "Andrea", href: "https://danielaluque.com/tu-comunidad-andrea-aguilar/" },
+  { img: specialtyAndreina, title: "Tu Estrategia de Negocio", name: "Andreina", href: "https://danielaluque.com/tu-estrategia-de-negocio-andreina-roquero/" },
+  { img: specialtySandra, title: "Tu Mentalidad Millonaria", name: "Sandra", href: "https://danielaluque.com/tu-mentalidad-millonaria-sandra-vega/" },
+  { img: specialtyValentina, title: "Creatividad Expansiva", name: "Valentina", href: "https://danielaluque.com/creatividad-expansiva-valentina/" },
+  { img: specialtyLeonardo, title: "IA para Marca Personal", name: "Leonardo", href: "https://danielaluque.com/ia-para-marca-personal-leonardo-sawka/" },
+  { img: specialtyAndie2, title: "Sales Navigator", name: "Andrea", href: "https://danielaluque.com/sales-navigator-andrea-aguilar/" },
 ];
 
 const CARD_WIDTH = 240;
@@ -122,9 +122,14 @@ const SpecialtiesSection = () => {
                     <div className="p-4">
                       <h3 className="font-semibold text-foreground text-sm font-mono">{s.title}</h3>
                       <p className="text-xs text-muted-foreground mt-1">{s.name}</p>
-                      <button className="mt-2 text-xs font-semibold text-primary hover:text-primary/80 transition-colors">
+                      <a
+                        href={s.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-2 inline-block text-xs font-semibold text-primary hover:text-primary/80 transition-colors"
+                      >
                         Ver Más →
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>

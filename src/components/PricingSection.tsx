@@ -14,6 +14,7 @@ const plans = [
       "Resumen ejecutivo por email",
     ],
     popular: false,
+    href: "https://upandnow.thrivecart.com/consultoria-express/?ref=marketing-digital-iris-horny-von-borries/",
   },
   {
     name: "Consultoría 3 Sesiones",
@@ -27,6 +28,7 @@ const plans = [
       "Materiales y plantillas exclusivas",
     ],
     popular: true,
+    href: "https://upandnow.thrivecart.com/consultoria-3-sesiones/?ref=marketing-digital-iris-horny-von-borries/",
   },
 ];
 
@@ -81,7 +83,9 @@ const PricingSection = () => {
                 ))}
               </ul>
               <a
-                href="#"
+                href={plan.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block text-center py-3 rounded-lg font-bold transition-all duration-300 bg-primary text-primary-foreground hover:brightness-110 hover:scale-105 font-mono uppercase tracking-wider text-sm"
               >
                 Agendar {plan.name === "Consultoría Express" ? "Consultoría Express" : "3 Sesiones"}
